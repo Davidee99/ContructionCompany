@@ -152,41 +152,6 @@ nav {
 
 /* footer */
 
-/* .contatti {
-    margin: 20px;
-  }
-
-  .telefono {
-    margin-bottom: 10px;
-  }
-
-  .indirizzo {
-    margin-bottom: 10px;
-  }
-
-  .contatti h2 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #ffff;
-  }
-
-  .contatti p {
-    margin: 0;
-    color: #ffff;
-  }
-  .contatti a {
-    color: #dddddd;
-    text-decoration: none;
-  }
-
-  .footer1{
-    background-color: #231f20;
-    width: auto;
-    height: 100px;
-    margin-top: 10rem;
-  } */
-
 footer {
     background-color: #231f20;
     margin-top: 10rem;
@@ -202,11 +167,23 @@ footer {
     padding: 20px;
     
   }
+  
+.social{
+    flex-wrap:nowrap;
+    align-items:center;
+}
 
 .social a{
     margin-left: 10px;
     text-decoration: solid;
     color: #ffff;
     
+}
+
+.social p{
+    text-align: center;
+    font-size: xx-small;
+    color: #ffff;
+    flex-grow:1;
 }
 
