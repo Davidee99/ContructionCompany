@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    background-color: #231f20;
+}
+
+.navbar img {
+    width: 130px;
+}
+
+.links a:hover {
+    text-decoration: underline !important;
+}
+
+/* sezione jumbotron */
+.cards_section {
+    margin-top: 10rem;
+}
+
+.jumbotron {
+    background-image: url(./img/cantiere.jpg);
+    background-repeat: no-repeat;
+    padding: 150px;
+    text-shadow: 2px 2px 2px black;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.jumbotron a {
+    text-shadow: none;
+}
+
+/* sezione eventi */
+.event_card {
+    margin: 20px;
+    width: calc(100% / 3 - 100px);
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 20px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 3px 26px -5px #474747;
+    box-shadow: 0px 3px 26px -5px #474747;
+}
+
+/* sezione sponsorship */
+.sponsor-section {
+    margin-top: 10rem;
+}
+
+.sponsor_container img {
+    width: 300px;
+    margin: 60px;
+}
+
+/* sezione compani history */
+
+.davideContainer{
+    margin-top: 10rem;
+}
+
+.companyHistory {
+    text-align: center;
+    width: 800px;
+    margin: auto;
+}
+
+.uomo {
+    margin-top: 100px;
+    width: 420px;
+    height: 600px;
+    margin-left: 500px;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 20px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 3px 26px -5px #474747;
+    box-shadow: 0px 3px 26px -5px #474747;
+}
+
+.uomoP {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.donna {
+    margin-top: 100px;
+    width: 420px;
+    height: 600px;
+    margin-left: 100px;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 20px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 3px 26px -5px #474747;
+    box-shadow: 0px 3px 26px -5px #474747;
+}
+
+.donnaP {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.employees {
+    display: flex;
+    gap: 105px;
+    width: 800px;
+    /* height: 300px; */
+}
+
+
+/* sezione testimonials */
+
+.container-testimonials{
+    margin-top: 10rem;
+
+}
+
+.checked {
+    color: orange;
+  }
+
+.card-testimonials-container{
+    gap: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.card-testimonial{
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 20px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 3px 26px -5px #474747;
+    box-shadow: 0px 3px 26px -5px #474747;
+    gap: 10px;
+    text-align: center;
+}
+
+.card-testimonial img{
+    width: 80px;
+
+}
+
+.card-testimonial p:first-of-type{
+    margin-top: 30px;
+}
+
+.rating{
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+/* footer */
+
+footer {
+    background-color: #231f20;
+    margin-top: 10rem;
+}
+  .info {
+    margin-top: 20px;
+    text-align: center;
+    color: #ffff;
+  }
+
+ .footer2 {
+    position: relative;
+    padding: 20px;
+    
+  }
+  
+.social{
+    flex-wrap:nowrap;
+    align-items:center;
+}
+
+.social a{
+    margin-left: 10px;
+    text-decoration: solid;
+    color: #ffff;
+    
+}
+
+.social p{
+    text-align: center;
+    font-size: xx-small;
+    color: #ffff;
+    flex-grow:1;
+}
+
